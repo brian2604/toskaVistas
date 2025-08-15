@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRAR - Toska Games</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1 class="logo">Toska</h1>
+        <nav>
+            <a href="" class="juegos">Juegos</a>
+            <a href="">Comunidad</a>
+            <a href="">Soporte</a>
+            <a href=""><button class="iniciar" id="iniciar">Iniciar</button></a>
+            <a href=""><button class="registrar" id="Registrar">Registrar</button></a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="FormContainer active" id="formRegistro">
+            <h2>Crear Cuenta</h2>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="example@gmail.com" required>
+
+                <label>Contraseña</label>
+                <input type="password" required>
+
+                <label>Usuario</label>
+                <input type="text" required>
+
+                <label>Fecha de nacimiento</label>
+                <input type="date" placeholder="DD/MM/AA" required>
+
+                <button type="submit" class="Registrarme">Registrarme</button>
+            </form>
+        </div>
+
+        <div class="FormContainer" id="formIniciarSesion" >
+             <h2>Iniciar Sesion</h2>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="example@gmail.com" required>
+
+                <label>Contraseña</label>
+                <input type="password" required>
+
+                <button type="submit" class="Registrarme">Iniciar sesion</button>
+
+                <a href="" id="RecuperarContraseña">¿Olvidaste tu contraseña?</a>
+            </form>
+        </div>
+
+        <div class="FormContainer" id="formContraseña" >
+             <h2>Recuperar contraseña</h2>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="example@gmail.com" required>
+
+                <label>Contraseña</label>
+                <input type="password" required>
+
+                <button type="submit" class="Registrarme">Cambiar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="Logos">
+            <img src="../images/instagram-logo.png" alt="Logo de instagram">
+            <img src="../images/X_logo.png" alt="logo de twitter">
+            <img src="../images/youtube.webp" alt="logo de youtube">
+        </div>
+        <h4>@Toska.com</h4>
+    </footer>
+
+      <script src="../js/inicio.js"></script>
+</body>
+</html>
